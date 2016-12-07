@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+
+    tools:context="hanswu.memegenerator.edit">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+
+            app:srcCompat="@android:drawable/sym_def_app_icon"
+
+            android:id="@+id/imagedit"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+
+            <ImageButton
+                android:textAllCaps="false"
+                android:text="剪切"
+                android:id="@+id/cut"
+                android:src="@drawable/cut"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                />
+
+            <ImageButton
+                android:textAllCaps="false"
+                android:textSize="14dp"
+                android:text="涂鸦"
+                android:src="@drawable/doodle"
+                android:id="@+id/doodle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                />
+
+            <ImageButton
+                android:textAllCaps="false"
+                android:text="贴图"
+                android:src="@drawable/sticker"
+                android:id="@+id/sticker"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                />
+
+            <ImageButton
+                android:textAllCaps="false"
+                android:text="模板"
+                android:src="@drawable/template"
+                android:id="@+id/template"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                />
+
+            <ImageButton
+                android:textAllCaps="false"
+                android:text="黑白"
+                android:src="@drawable/bw"
+                android:id="@+id/bw"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center"
+                />
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

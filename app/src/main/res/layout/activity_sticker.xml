@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sticker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="hanswu.memegenerator.sticker.StickerActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <FrameLayout
+            android:id="@+id/canvasView"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity"
+            android:layout_weight="10">
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#FF6E40">
+
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/no"
+                android:id="@+id/sticker1"
+                android:background="#FF6E40"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/horse"
+                android:id="@+id/sticker2"
+                android:background="#FF6E40"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/smile"
+                android:contentDescription="@string/app_name"
+                android:id="@+id/sticker3"
+                android:background="#FF6E40"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src ="@drawable/ribbon"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:id="@+id/sticker5"
+                android:background="#FF6E40"
+                android:layout_weight="1"
+                android:elevation="0dp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/text"
+                android:contentDescription="@string/app_name"
+                android:id="@+id/sticker4"
+                android:background="#FF6E40"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
